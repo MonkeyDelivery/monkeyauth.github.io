@@ -26,7 +26,7 @@ Administrators can reset their password by submitting their registered email add
    - Click the link in the email and create a new secure password for your admin account.
 
 ## Error Handling
-- If you submit an invalid or unregistered email address, an error will display above the form.
+- If you submit an invalid email address, an error will display above the form.
 - Double-check the spelling of your email and try again.
 
 ## Tips
