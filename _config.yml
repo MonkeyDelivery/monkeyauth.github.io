@@ -9,11 +9,10 @@ sidebar:
   - index
   - label: Account
     children:
-      - account_forgot-password-admin
       - account_register-admin
       - account_login
+      - account_forgot-password-admin
   - label: Admin
     children:
       - label: API
-        children:
-          - admin_api_create
+      - admin_api_create
