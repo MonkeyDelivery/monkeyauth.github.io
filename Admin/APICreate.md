@@ -4,6 +4,13 @@ id: admin_api_create
 
 # API - Create
 
+### Navigation
+1. [Introduction](APIs.md)
+2. Create
+3. [Edit](APIEdit.md)
+4. [Delete](APIDelete.md)
+4. [Scopes](APIScopeManage.md)
+
 ## Overview
 The Create API page allows administrators to define and register new APIs in the system. This document explains the interface elements, required fields, and proper usage of this feature.
 

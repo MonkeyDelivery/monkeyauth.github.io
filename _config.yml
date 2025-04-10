@@ -15,10 +15,4 @@ sidebar:
   - label: Admin
     children:
       - admin_api_index
-      - admin_api_create
-      - admin_api_edit
-      - admin_api_scopes
       - admin_client_index
-      - admin_client_create
-      - admin_client_edit
-      - admin_client_delete

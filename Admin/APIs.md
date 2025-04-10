@@ -4,6 +4,13 @@ id: admin_api_index
 
 # API - Introduction
 
+### Navigation
+1. Introduction
+2. [Create](APICreate.md)
+3. [Edit](APIEdit.md)
+4. [Delete](APIDelete.md)
+4. [Scopes](APIScopeManage.md)
+
 ## Overview
 The APIs List page provides administrators with a view of all registered APIs in the system. This document explains the interface elements, available actions, and navigation features of this page.
 
