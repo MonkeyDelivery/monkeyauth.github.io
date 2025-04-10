@@ -1,4 +1,15 @@
-# User Management System Documentation
+---
+id: admin_user_index
+title: Users
+---
+
+# Users
+
+#### Navigation
+- Introduction
+- [Create](UserCreate.md)
+- [Edit](UserEdit.md)
+- [Delete](UserDelete.md)
 
 ## Overview
 The User Management System is a web-based application that allows administrators to view, create, edit, approve, and delete user accounts. The interface presents user information in a tabular format with search functionality and pagination features.

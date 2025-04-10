@@ -1,4 +1,9 @@
-# Monkey Authentication System Documentation
+---
+id: admin_home
+title: Home
+---
+
+# Home
 
 ## Overview
 Monkey Authentication is a system designed to manage authentication for applications, users, and APIs. It provides a user-friendly interface for managing clients, users, and APIs, ensuring secure access control.

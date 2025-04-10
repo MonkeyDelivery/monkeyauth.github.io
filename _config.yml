@@ -9,6 +9,8 @@ search_enabled: true
 
 sidebar:
   - index
+  - admin_home
+  - admin_user-profile
   - label: Account
     children:
       - account_register-admin
@@ -18,3 +20,4 @@ sidebar:
     children:
       - admin_api_index
       - admin_client_index
+      - admin_user_index

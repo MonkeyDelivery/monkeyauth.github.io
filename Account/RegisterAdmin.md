@@ -1,5 +1,6 @@
 ---
 id: account_register-admin
+title: Register
 ---
 
 # Register

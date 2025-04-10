@@ -1,5 +1,6 @@
 ---
 id: account_forgot-password-admin
+title: Forgot Password
 ---
 
 # Forgot Password

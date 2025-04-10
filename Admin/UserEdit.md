@@ -1,22 +1,31 @@
-# User Management System Documentation
+---
+id: admin_user_edit
+title: User - Edit
+---
 
-## Edit User Feature
+# User - Edit
 
-### Overview
+#### Navigation
+- [Introduction](Users.md)
+- [Create](UserCreate.md)
+- Edit
+- [Delete](UserDelete.md)
+
+## Overview
 The Edit User page allows administrators to modify existing user accounts in the system. This document outlines the interface elements, editable fields, and proper usage of this feature.
 
-### User Interface Components
+## User Interface Components
 
-#### Header Section
+### Header Section
 - **Page Title**: "Edit User"
 - **Navigation**: "Home" and "Users" breadcrumb links in the top-right corner
 
-#### Tab Navigation
+### Tab Navigation
 - **User**: Basic user information (active tab)
 - **Clients**: User's associated client access
 - **Roles**: User's system roles and permissions
 
-#### User Information Form
+### User Information Form
 The form contains the following editable fields:
 
 | Field | Description | Current Example |
@@ -26,17 +35,17 @@ The form contains the following editable fields:
 | Phone number | User's contact number | (empty) |
 | Is Approved | Account status checkbox | Unchecked |
 
-#### Profile Picture Section
+### Profile Picture Section
 - **Current Image**: Flower image displayed as the user's profile picture
 - **Profile Picture Label**: Text indicating "Profile Picture"
 - **Help Text**: "The profile image can be changed here, and how to integrate in Client please review API documentation."
 - **Change Button**: Blue button to upload or modify the profile picture
 
-#### Action Controls
+### Action Controls
 - **Save Button**: Blue button to save changes to the user account
 - **Cancel Button**: Gray button to abort the editing process
 
-### Usage Instructions
+## Usage Instructions
 
 1. **Access**: Navigate to the Edit User page from the user management section
 2. **Review Current Information**: Examine existing user details
@@ -50,28 +59,28 @@ The form contains the following editable fields:
 5. **Save Changes**: Click "Save" to apply and persist the modifications
 6. **Cancel**: Click "Cancel" to exit without saving changes
 
-### Field Guidelines
+## Field Guidelines
 
 - **Username**: Consider system constraints when changing usernames
 - **Email**: Must follow standard email format (e.g., user@domain.com)
 - **Phone number**: Optional field, should follow appropriate format based on regional settings
 - **Is Approved**: Controls whether the user can access the system
 
-### Important Considerations
+## Important Considerations
 
 - Changing a username may affect the user's ability to log in
 - Email changes may require verification depending on system configuration
 - Modifying approval status directly affects system access
 - Profile picture changes take effect immediately upon saving
 
-### Post-Edit Notifications
+## Post-Edit Notifications
 
 The system may automatically notify users of certain changes to their account:
 - Email address changes
 - Approval status changes
 - Role or permission updates
 
-### Security Notes
+## Security Notes
 
 - Only administrators with appropriate permissions should access this feature
 - Consider documenting significant user changes for audit purposes
