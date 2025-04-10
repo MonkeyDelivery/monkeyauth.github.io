@@ -1,5 +1,6 @@
 ---
 id: admin_client_edit
+title: Client - Edit
 ---
 
 # Client - Edit

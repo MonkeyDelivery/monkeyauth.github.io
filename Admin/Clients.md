@@ -1,5 +1,6 @@
 ---
 id: admin_client_index
+title: Clients
 ---
 
 # Clients

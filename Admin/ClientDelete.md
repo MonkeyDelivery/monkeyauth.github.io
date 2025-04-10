@@ -1,5 +1,6 @@
 ---
 id: admin_client_delete
+title: Client - Delete
 ---
 
 # Client - Delete

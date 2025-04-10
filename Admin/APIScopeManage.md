@@ -1,5 +1,6 @@
 ---
 id: admin_api_scopes
+title: API - Scopes
 ---
 
 # API - Scopes

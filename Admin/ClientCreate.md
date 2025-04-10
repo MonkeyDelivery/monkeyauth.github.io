@@ -1,5 +1,6 @@
 ---
 id: admin_client_create
+title: Client - Create
 ---
 
 # Client - Create

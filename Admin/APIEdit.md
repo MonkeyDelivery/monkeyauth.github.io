@@ -1,5 +1,6 @@
 ---
 id: admin_api_edit
+title: API - Edit
 ---
 
 # API - Edit

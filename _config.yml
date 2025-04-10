@@ -5,6 +5,8 @@ plugins:
 title: Monkey Auth - Documentation
 description: Monkey Auth is a simple and secure authentication system for your web applications.
 
+search_enabled: true
+
 sidebar:
   - index
   - label: Account

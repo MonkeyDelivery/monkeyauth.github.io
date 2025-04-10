@@ -1,5 +1,6 @@
 ---
 id: admin_api_delete
+title: API - Delete
 ---
 
 # API - Delete

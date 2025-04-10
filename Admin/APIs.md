@@ -1,5 +1,6 @@
 ---
 id: admin_api_index
+title: APIs
 ---
 
 # APIs

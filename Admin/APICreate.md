@@ -1,5 +1,6 @@
 ---
 id: admin_api_create
+title: API - Create
 ---
 
 # API - Create
