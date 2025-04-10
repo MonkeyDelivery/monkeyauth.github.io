@@ -1,3 +1,7 @@
+---
+id: index
+---
+
 # Monkey Auth User Guide
 
 Welcome to **Monkey Auth**, your secure and easy way to log in to apps and websites without hassle. This guide will help you understand how to use Monkey Auth for a smooth authentication experience.

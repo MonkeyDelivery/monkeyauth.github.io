@@ -1,3 +1,7 @@
+---
+id: account_forgot-password-admin
+---
+
 # Forgot Password (Admin) Page
 
 ## Purpose

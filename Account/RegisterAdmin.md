@@ -1,3 +1,7 @@
+---
+id: account_register-admin
+---
+
 # Monkey Authentication – Admin Registration Page Guide
 
 ## Purpose

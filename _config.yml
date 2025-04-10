@@ -6,9 +6,9 @@ title: Monkey Auth - Documentation
 description: Monkey Auth is a simple and secure authentication system for your web applications.
 
 sidebar:
-  - getting-started
-  - label: Dev Docs
+  - index
+  - label: Account
     children:
-      - doc-1
-      - doc-2
-  - deployment
+      - account_forgot-password-admin
+      - account_register-admin
+      - account_login
