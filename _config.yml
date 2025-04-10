@@ -6,7 +6,6 @@ description: Monkey Auth is a simple and secure authentication system for your w
 
 search_enabled: true
 version: false
-github.repository_url: false
 
 sidebar:
   - index
