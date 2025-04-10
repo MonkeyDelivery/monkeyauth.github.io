@@ -1,0 +1,23 @@
+remote_theme: zendesk/jekyll-theme-zendesk-garden@main
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+title: Monkey Auth - Documentation
+description: Monkey Auth is a simple and secure authentication system for your web applications.
+
+search_enabled: true
+version: false
+
+sidebar:
+  - index
+  - admin_home
+  - admin_user-profile
+  - label: Account
+    children:
+      - account_register-admin
+      - account_login
+      - account_forgot-password-admin
+  - label: Admin
+    children:
+      - admin_api_index
+      - admin_client_index
+      - admin_user_index

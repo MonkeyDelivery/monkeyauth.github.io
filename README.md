@@ -1,1 +1,1 @@
-# monkeyauth.github.io
+# Monkey Auth - Documentation
