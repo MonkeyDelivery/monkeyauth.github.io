@@ -1,4 +1,8 @@
-# Create Client Interface Documentation
+---
+id: admin_client_create
+---
+
+# Client - Create
 
 ## Overview
 The "Create Client" interface allows administrators to register new client applications in the system. This form collects essential information needed to establish a client profile and configure its authentication parameters.

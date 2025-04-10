@@ -1,4 +1,8 @@
-# Client Management System Documentation
+---
+id: admin_client_delete
+---
+
+# Client - Delete
 
 ## Delete Client Feature
 

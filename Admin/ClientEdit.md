@@ -1,4 +1,8 @@
-# Client Edit Interface Documentation
+---
+id: admin_client_edit
+---
+
+# Client - Edit
 
 ## Overview
 The Client Edit interface is part of a client management system that allows administrators to modify existing client application details. This interface provides fields for updating client information, authentication redirect URIs, and associated contact details.

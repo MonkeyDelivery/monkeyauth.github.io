@@ -1,21 +1,23 @@
-# API Management System Documentation
+---
+id: admin_api_edit
+---
 
-## Edit API Feature
+# API - Edit
 
-### Overview
+## Overview
 The Edit API page allows administrators to modify existing API configurations in the system. This document explains the interface elements, editable fields, and proper usage of this feature.
 
-### User Interface Components
+## User Interface Components
 
-#### Header Section
+### Header Section
 - **Page Title**: "Edit API"
 - **Navigation**: "Home" and "APIs" breadcrumb links in the top-right corner
 
-#### Tab Navigation
+### Tab Navigation
 - **API**: Basic API information (active tab)
 - **Scopes**: API permission scopes management (inactive tab)
 
-#### API Information Form
+### API Information Form
 The form contains the following editable fields:
 
 | Field | Description | Current Example |
@@ -25,11 +27,11 @@ The form contains the following editable fields:
 | Description | Brief explanation of API purpose and functionality | Haulaged Mobile API provides an access to mobile applications |
 | Enabled | Checkbox to activate/deactivate the API | Checked |
 
-#### Action Controls
+### Action Controls
 - **Save Button**: Blue button to save changes to the API
 - **Cancel Button**: Gray button to abort the editing process
 
-### Usage Instructions
+## Usage Instructions
 
 1. **Access**: Navigate to the Edit API page from the APIs list by clicking the "Edit" button for a specific API
 2. **Review Current Information**: Examine existing API details
@@ -42,7 +44,7 @@ The form contains the following editable fields:
 5. **Save Changes**: Click "Save" to apply and persist the modifications
 6. **Cancel**: Click "Cancel" to exit without saving changes
 
-### Field Guidelines
+## Field Guidelines
 
 - **Name**: 
   - This is typically a unique identifier and may have restrictions on editing
@@ -60,21 +62,21 @@ The form contains the following editable fields:
   - Uncheck to temporarily disable the API without deleting it
   - When disabled, all attempts to access the API will be rejected
 
-### Important Considerations
+## Important Considerations
 
 - Changing the name of an established API may affect system integrations
 - Disabling an API will immediately prevent all clients from accessing it
 - Updates to API information should be communicated to relevant stakeholders
 - Consider the "Scopes" tab for managing specific permissions within the API
 
-### Scopes Management
+## Scopes Management
 
 The "Scopes" tab provides access to:
 - Create, edit, and delete permission scopes for this API
 - Configure specific access levels and resources
 - Manage which clients can access specific API functionality
 
-### Post-Edit Considerations
+## Post-Edit Considerations
 
 After modifying an API:
 1. Test the API to ensure it functions as expected
@@ -82,7 +84,7 @@ After modifying an API:
 3. Notify developers and stakeholders of significant changes
 4. Review client applications that may be affected by the changes
 
-### Security Notes
+## Security Notes
 
 - Only users with administrative permissions should access this feature
 - Consider the impact of enabling/disabling APIs on production systems

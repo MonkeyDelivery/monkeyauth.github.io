@@ -2,7 +2,7 @@
 id: admin_api_create
 ---
 
-# Create API
+# API - Create
 
 ## Overview
 The Create API page allows administrators to define and register new APIs in the system. This document explains the interface elements, required fields, and proper usage of this feature.
