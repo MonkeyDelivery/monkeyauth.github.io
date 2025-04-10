@@ -12,3 +12,8 @@ sidebar:
       - account_forgot-password-admin
       - account_register-admin
       - account_login
+  - label: Admin
+    children:
+      - label: API
+        children:
+          - admin_api_create

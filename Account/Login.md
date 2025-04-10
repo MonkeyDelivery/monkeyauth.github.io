@@ -2,7 +2,7 @@
 id: account_login
 ---
 
-# Monkey Authentication Login Page – User Guide
+# Login
 
 ## Overview
 This page is used for users to log into their MonkeyAuth account. It provides standard authentication features including error feedback, "Remember Me" functionality, and links to password recovery and new user registration.

@@ -1,20 +1,22 @@
-# API Management System Documentation
+---
+id: admin_api_create
+---
 
-## Create API Feature
+# Create API
 
-### Overview
+## Overview
 The Create API page allows administrators to define and register new APIs in the system. This document explains the interface elements, required fields, and proper usage of this feature.
 
-### User Interface Components
+## User Interface Components
 
-#### Header Section
+### Header Section
 - **Page Title**: "Create API"
 - **Navigation**: "Home" and "APIs" breadcrumb links in the top-right corner
 
-#### Tab Navigation
+### Tab Navigation
 - **API**: Basic API information (active tab)
 
-#### API Information Form
+### API Information Form
 The form contains the following input fields:
 
 | Field | Description | Required |
@@ -24,11 +26,11 @@ The form contains the following input fields:
 | Description | Brief explanation of API purpose and functionality | Yes |
 | Enabled | Checkbox to activate/deactivate the API | Optional |
 
-#### Action Controls
+### Action Controls
 - **Save Button**: Blue button to create the new API
 - **Cancel Button**: Gray button to abort the API creation process
 
-### Usage Instructions
+## Usage Instructions
 
 1. **Access**: Navigate to the Create API page from the APIs list by clicking the "+ Create" button
 2. **Enter API Information**:
@@ -39,7 +41,7 @@ The form contains the following input fields:
 3. **Save API**: Click "Save" to create the new API with the provided information
 4. **Cancel**: Click "Cancel" to exit without creating the API
 
-### Field Guidelines
+## Field Guidelines
 
 - **Name**: 
   - Should be unique across the system
@@ -61,7 +63,7 @@ The form contains the following input fields:
   - When checked, the API will be immediately available for use
   - When unchecked, the API will be created but remain inactive
 
-### Important Considerations
+## Important Considerations
 
 - API creation is typically the first step in a multi-step process
 - After creating an API, additional configuration may be required:
@@ -70,7 +72,7 @@ The form contains the following input fields:
   - Establishing rate limits
   - Connecting to backend services
 
-### Post-Creation Steps
+## Post-Creation Steps
 
 After successfully creating an API, consider:
 1. Configuring security settings for the API
@@ -78,7 +80,7 @@ After successfully creating an API, consider:
 3. Testing the API with authorized applications
 4. Documenting the API endpoints for developers
 
-### Security Notes
+## Security Notes
 
 - Only users with administrative permissions should access this feature
 - New APIs are not automatically secure - additional configuration is required

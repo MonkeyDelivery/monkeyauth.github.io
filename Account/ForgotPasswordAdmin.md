@@ -2,7 +2,7 @@
 id: account_forgot-password-admin
 ---
 
-# Forgot Password (Admin) Page
+# Forgot Password
 
 ## Purpose
 Administrators can reset their password by submitting their registered email address. It's a secure method to regain account access if login credentials are forgotten.

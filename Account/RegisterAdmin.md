@@ -2,7 +2,7 @@
 id: account_register-admin
 ---
 
-# Monkey Authentication – Admin Registration Page Guide
+# Register
 
 ## Purpose
 This page is used for registering a new administrator account on the Monkey Authentication platform. It provides a simple interface for creating an admin user with access privileges.
