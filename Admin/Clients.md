@@ -2,7 +2,13 @@
 id: admin_client_index
 ---
 
-# Clients - Introduction
+# Clients
+
+#### Navigation
+- Introduction
+- [Create](ClientCreate.md)
+- [Edit](ClientEdit.md)
+- [Delete](ClientDelete.md)
 
 ## Overview
 The Client Management System is a web-based application for managing client applications. Users can view, create, edit, and delete client records through an intuitive interface.

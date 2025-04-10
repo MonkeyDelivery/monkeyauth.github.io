@@ -4,6 +4,12 @@ id: admin_client_delete
 
 # Client - Delete
 
+#### Navigation
+- [Introduction](Clients.md)
+- [Create](ClientCreate.md)
+- [Edit](ClientEdit.md)
+- Delete
+
 ## Delete Client Feature
 
 ### Overview
