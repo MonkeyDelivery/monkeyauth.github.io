@@ -6,7 +6,7 @@ title: Login
 # Login
 
 ## Overview
-This page is used for users to log into their MonkeyAuth account. It provides standard authentication features including error feedback, "Remember Me" functionality, and links to password recovery and new user registration.
+Logging into a Monkey Auth account is facilitated through standard authentication features, including error feedback, "Remember Me" functionality, and links to password recovery and new user registration.
 
 ## How to Use the Login Page
 
@@ -27,11 +27,11 @@ This page is used for users to log into their MonkeyAuth account. It provides st
 <img src="../images/LoginRequiredError.png" alt="Required fields" width="400"/>
 
 ### 3. Forgot Password
-- Click the **"I forgot my password"** link to initiate the password reset process.
+- Click the "I forgot my password" link to initiate the password reset process.
 - You'll be taken to a form where you can input your email to receive reset instructions.
 
 ### 4. Register a New Account
-- Click **"Register a new membership"** to create a new MonkeyAuth account.
+- Click "Register a new membership" to create a new MonkeyAuth account.
 - Fill out the registration form on the linked page and follow prompts to complete setup.
 
 ## Best Practices

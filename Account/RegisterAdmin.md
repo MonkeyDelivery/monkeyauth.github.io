@@ -3,29 +3,60 @@ id: account_register-admin
 title: Register
 ---
 
-# Register
+# Registration
 
-## Purpose
-This page is used for registering a new administrator account on the Monkey Authentication platform. It provides a simple interface for creating an admin user with access privileges.
+## Overview
+The Monkey Authentication system provides a user registration interface for creating new memberships. This document outlines the registration process and form fields.
 
-## Steps to Register an Admin Account
+## Registration Form
+The registration interface consists of a simple form with the following fields:
 
-1. **Open the Registration Page**
-   - Visit the URL above in your web browser.
+<img src="../images/RegistrationAdmin.png" alt="Registration" width="400"/>
 
-2. **Agree to Terms**
-   - Before proceeding, you must check the box labeled **"I agree to the terms"**. Registration cannot proceed unless this box is selected.
+### Form Fields
+1. Description
+   - Purpose: Allows users to provide a brief description of their account or purpose
+   - Format: Text field
+   - Requirements: Required
 
-3. **Click Register**
-   - Once you agree to the terms, click the **"Register"** button to submit the form.
-   - If the form is incomplete or incorrect, an error message will appear indicating what needs to be fixed.
+2. Username
+   - Purpose: User's unique identifier in the system
+   - Format: Text field
+   - Requirements: Required, must be unique within the system
+
+3. Email
+   - Purpose: Primary contact method and potential recovery option
+   - Format: Valid email address (example@domain.com)
+   - Requirements: Required, must be properly formatted
+
+4. Password
+   - Purpose: Secure access credential
+   - Format: Password field (masked input)
+   - Requirements: Required, should follow secure password guidelines
+
+5. Retype password
+   - Purpose: Password confirmation to prevent typing errors
+   - Format: Password field (masked input)
+   - Requirements: Required, must match the entry in the Password field
+
+6. Terms Agreement
+   - Purpose: Confirmation that user accepts the terms of service
+   - Format: Checkbox
+   - Requirements: Must be checked to proceed with registration
+   - Note: The terms are accessible via a hyperlink labeled "terms"
+
+### Registration Process
+1. Fill in all required fields in the form
+2. Review and accept the terms of service by checking the checkbox
+3. Click the "Register" button to submit your information
+4. Upon successful submission, your membership will be created
 
 ## Error Handling
+- An error is displayed above the Registration form if an empty form is submitted.
 
-- **Blank Fields**: If required inputs are not filled in (depending on implementation), an error will appear.
-- **Unchecked Agreement**: Failing to check the “I agree to the terms” box will prevent form submission.
+<img src="../images/RegistrationRequiredError.png" alt="Registration required error" width="400"/>
 
-## Best Practices
-
-- **Read Terms Carefully**: Understand the service terms before agreeing.
-- **Use a Secure Connection**: Ensure you're on a secure network when registering an admin account.
+## Notes
+- The "Monkey Auth" system likely provides authentication services for connected applications or services
+- Form validation is performed before submission to ensure all requirements are met
+- Users should ensure they use a secure, unique password and keep their credentials safe

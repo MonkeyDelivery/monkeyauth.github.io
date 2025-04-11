@@ -5,29 +5,28 @@ title: Forgot Password
 
 # Forgot Password
 
-## Purpose
+## Overview
 Administrators can reset their password by submitting their registered email address. It's a secure method to regain account access if login credentials are forgotten.
 
 ## Steps to Reset Password
 
-1. **Enter Your Email**
+1. Enter Your Email
    - Locate the input field on the page.
    - Enter the email associated with your admin account.
 
 <img src="../images/ForgotPasswordAdmin.png" alt="Forgot password" width="400"/>
 
-2. **Submit Request**
-   - Click the **"Submit"** button to initiate the password reset process.
-
+2. Submit Request
+   - Click the "Submit" button to initiate the password reset process.
 
 <img src="../images/ForgotPasswordAdminConfirmation.png" alt="Forgot password confirmation" width="400"/>
 
-3. **Check Your Email**
+3. Check Your Email
    - A message will be sent to the provided email address with instructions to complete the password reset.
 
 <img src="../images/ForgotPasswordAdminEmail.png" alt="Forgot password email" width="400"/>
 
-4. **Follow Reset Instructions**
+4. Follow Reset Instructions
    - Click the link in the email and create a new secure password for your admin account.
 
 <img src="../images/ResetPassword.png" alt="Reset password" width="400"/>
@@ -45,6 +44,6 @@ Administrators can reset their password by submitting their registered email add
 
 <img src="../images/ResetPasswordRequiredError.png" alt="Reset password details required error" width="400"/>
 
-## Tips
+## Best Practices
 - Ensure your email inbox is accessible and check your spam folder if you don't see the reset email.
 - For security, use a strong, unique password that you haven't used before.
