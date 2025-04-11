@@ -20,8 +20,6 @@ Monkey Auth is a user authentication service that provides secure identity verif
 Monkey Auth provides a robust authentication solution for developers and businesses looking to implement secure user verification systems. The platform offers various authentication methods and user management tools to help you maintain secure access to your digital resources.
 
 ### Key Features
-- Multi-factor authentication (MFA)
-- Single sign-on (SSO) capabilities
 - User identity management
 - Role-based access control
 - Customizable authentication flows
@@ -82,7 +80,7 @@ POST /api/UserRole
 
 ### Profile Picture Management Endpoints
 ```
-GET /api/ProfilePicture/{username}
+GET  /api/ProfilePicture/{username}
 POST /api/ProfilePicture
 ```
 

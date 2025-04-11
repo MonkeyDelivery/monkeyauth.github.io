@@ -1,55 +1,76 @@
 ---
 id: admin_home
-title: Home
+title: Admin Home
 ---
 
-# Home
+# Admin Home
 
 ## Overview
-Monkey Authentication is a system designed to manage authentication for applications, users, and APIs. It provides a user-friendly interface for managing clients, users, and APIs, ensuring secure access control.
+The Monkey Auth dashboard is the central management interface for configuring and managing your authentication services. This dashboard provides access to clients, users, APIs, roles, settings, and external authentication providers.
 
-## Dashboard
-Upon logging in, users are greeted with the Monkey Authentication dashboard, which provides access to key authentication management features. The dashboard contains the following sections:
+<img src="../images/HomeAdmin.png" alt="Admin Home" width="400"/>
 
-### 1. Clients
-**Purpose:** 
-- Create and manage application clients.
+## Dashboard Layout
+The dashboard consists of a sidebar navigation menu on the left and a main content area on the right.
 
-**Actions:**
-- **Create new client**: Allows users to create a new application client.
-- **Manage existing clients**: Provides access to view and modify existing clients.
+### Header
+- Logo: Monkey Auth logo in the top-left corner
+- Menu Toggle: Button to collapse/expand the sidebar
+- Home: Navigate to the Admin home page
 
-### 2. Users
-**Purpose:**
-- Create and manage user accounts.
+### Sidebar Navigation
+The sidebar contains the following sections:
 
-**Actions:**
-- **Create new user**: Allows administrators to create a new user account.
-- **Manage existing user**: Provides access to view and modify existing users.
+1. Clients
+   - List: View all clients
+   - Create: Add a new client
 
-### 3. APIs
-**Purpose:**
-- Manage API access and configurations.
+2. Users
+   - List: View all users
+   - Create: Add a new user
 
-**Actions:**
-- **Create new API**: Enables the creation of a new API.
-- **Manage existing API**: Provides access to view and modify existing APIs.
+3. APIs
+   - List: View all APIs
+   - Create: Create a new API
 
-## Sidebar Navigation
-The left sidebar provides navigation options for:
-- **Clients**: Access to client management.
-- **Users**: User account management.
-- **APIs**: API management.
-- **Roles**: Manage roles and permissions.
-- **Settings**: Modify authentication system settings.
-- **External Auth Providers**: Configure external authentication providers.
-- **Options**: Additional configurations.
-- **API Documentation**: Access API documentation.
-- **Sign Out**: Logout from the system.
+4. Roles
+   - List: View all roles
+   - Create: Create a new role
 
-## Home Navigation
-A **Home** button in the top right corner allows users to return to the main dashboard at any time.
+5. Settings
+   - Access system settings
 
-## Conclusion
-The Monkey Authentication system provides a structured and intuitive approach to authentication management, ensuring efficient control over application security and access.
+6. External Auth Providers
+   - List: View external authentication providers
+   - Create: Configure a new external provider
 
+7. Options
+   - Change Password: Update your account password
+   - Two Factor Auth (2FA): Configure two-factor authentication
+
+8. API Documentation: Access API reference documentation
+
+9. Sign Out: Log out from the Admin area
+
+## Main Dashboard Sections
+
+### Welcome Screen
+The main welcome screen displays the following sections:
+
+1. Clients Section
+   - Description: Create and manage application clients
+   - Actions:
+     - Create new client: Register a new application
+     - Manage existing clients: View and edit registered clients
+
+2. Users Section
+   - Description: Create and manage users
+   - Actions:
+     - Create new user: Add a new user to the system
+     - Manage existing user: View and edit user accounts
+
+3. APIs Section
+   - Description: Create and manage API
+   - Actions:
+     - Create new API: Configure a new API endpoint
+     - Manage existing API: View and edit API configurations
