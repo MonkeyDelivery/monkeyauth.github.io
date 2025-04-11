@@ -1,12 +1,12 @@
 ---
 id: account_register-admin
-title: Register
+title: Registration
 ---
 
 # Registration
 
 ## Overview
-The Monkey Authentication system provides a user registration interface for creating new memberships. This document outlines the registration process and form fields.
+The Monkey Auth system provides a user registration interface for creating new memberships. This document outlines the registration process and form fields.
 
 ## Registration Form
 The registration interface consists of a simple form with the following fields:
@@ -50,6 +50,7 @@ The registration interface consists of a simple form with the following fields:
 2. Review and accept the terms of service by checking the checkbox
 3. Click the "Register" button to submit your information
 4. Upon successful submission, your membership will be created
+5. Verify your email address by clicking the link sent to your provided email
 
 ## Error Handling
 - An error is displayed above the Registration form if an empty form is submitted.
