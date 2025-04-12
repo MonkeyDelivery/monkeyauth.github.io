@@ -13,9 +13,9 @@ sidebar:
   - admin_user-profile
   - label: Account
     children:
-      - account_register-admin
+      - account_register
       - account_login
-      - account_forgot-password-admin
+      - account_forgot-password
   - label: Admin
     children:
       - admin_api_index

@@ -1,5 +1,5 @@
 ---
-id: account_register-admin
+id: account_register
 title: Registration
 ---
 
@@ -11,7 +11,7 @@ The Monkey Auth system provides a user registration interface for creating new m
 ## Registration Form
 The registration interface consists of a simple form with the following fields:
 
-<img src="../images/RegistrationAdmin.png" alt="Registration" width="400"/>
+<img src="../images/AccountRegistration.png" alt="Registration" width="400"/>
 
 ### Form Fields
 1. Description
@@ -55,7 +55,7 @@ The registration interface consists of a simple form with the following fields:
 ## Error Handling
 - An error is displayed above the Registration form if an empty form is submitted.
 
-<img src="../images/RegistrationRequiredError.png" alt="Registration required error" width="400"/>
+<img src="../images/AccountRegistrationRequiredError.png" alt="Registration required error" width="400"/>
 
 ## Notes
 - The "Monkey Auth" system likely provides authentication services for connected applications or services
