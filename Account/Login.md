@@ -15,16 +15,16 @@ Logging into a Monkey Auth account is facilitated through standard authenticatio
 - Remember Me Checkbox: Select this option to stay signed in across sessions.
 - Sign In Button: Click this to proceed with login.
 
-<img src="../images/LoginAdmin.png" alt="Login" width="400"/>
+<img src="../images/AccountLogin.png" alt="Login" width="400"/>
 
 ### 2. Error Handling
 - If the login fails (e.g., due to incorrect credentials), an error message will appear above the login form.
 
-<img src="../images/LoginInvalidError.png" alt="Invalid login attempt" width="400"/>
+<img src="../images/AccountLoginInvalidError.png" alt="Invalid login attempt" width="400"/>
 
 - An error is displayed above the Forgot password form if an empty form is submitted.
 
-<img src="../images/LoginRequiredError.png" alt="Required fields" width="400"/>
+<img src="../images/AccountLoginRequiredError.png" alt="Required fields" width="400"/>
 
 ### 3. Forgot Password
 - Click the "I forgot my password" link to initiate the password reset process.

@@ -8,44 +8,37 @@ title: User Profile
 ## Overview
 The User Profile page allows users to view and update their personal information including email address, phone number, and profile picture. This page is part of the user settings module and helps users manage their account details.
 
+  <img src="../images/AdminUserProfile.png" alt="User profile" width="600"/>
+
 ## Sections
 
-### 1. Page Header
-- **Breadcrumb Navigation**: Displays the user's current location in the app: `Home > Profile`
-- **Title**: Displays the heading **"Profile"**
+### 1. User Information Form (Left Panel)
 
-### 2. User Information Form (Left Panel)
-
-#### Fields:
-
-- **Username**
-  - **Type**: Read-only
-  - **Value**: Pre-filled with user's email address
+- Username
+  - Type: Read-only
+  - Value: Pre-filled with username
   
-- **Email**
-  - **Type**: Editable text field
-  - **Value**: User's current email address
+- Email
+  - Type: Editable text field
+  - Value: User's current email address
 
-- **Phone number**
-  - **Type**: Editable text field
-  - **Value**: Empty by default unless previously saved
+- Phone number
+  - Type: Editable text field
+  - Value: Empty by default unless previously saved
 
-#### Button:
-- **Save**
-  - **Action**: Saves changes made to the Email and Phone Number fields
-  - **Style**: Blue button aligned to the right
+- Save Button
+  - Action: Saves changes made to the Email and Phone Number fields
 
-### 3. Profile Picture Section (Right Panel)
+### 2. Profile Picture Section (Right Panel)
 
 #### Components:
-- **Image Preview**: Displays the current profile picture
-- **Label**: "Profile Picture"
-- **Instructions**:
+- Image Preview: Displays the current profile picture
+- Label: "Profile Picture"
+- Instructions:
   > The profile image can be changed here, and how to integrate in Client please review [API documentation](#).
 
-- **Button:**
-  - **Change**
-    - **Action**: Triggers image selection/upload functionality
+- Change Button
+  - Action: Triggers image selection/upload functionality
 
 ## Functionality Summary
 
@@ -56,9 +49,3 @@ The User Profile page allows users to view and update their personal information
 | Edit Phone      | Allows the user to add or change their phone number                        |
 | Change Picture  | Enables uploading a new profile picture                                    |
 | Save Changes    | Commits all editable changes to the server/backend                         |
-
-## Integration Notes
-
-- For integrating image upload, refer to the **API documentation** linked on the interface.
-- Ensure backend validation for email format and phone number.
-- Profile image format should support PNG/JPG and size constraints (suggested limit: 2MB).
