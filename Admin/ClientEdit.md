@@ -12,65 +12,44 @@ title: Client - Edit
 - [Delete](ClientDelete.md)
 
 ## Overview
-The Client Edit interface is part of a client management system that allows administrators to modify existing client application details. This interface provides fields for updating client information, authentication redirect URIs, and associated contact details.
+The "Client Edit" interface allows administrators to modify existing client application details. This form provides fields for updating client information, authentication redirect URIs, and associated contact details.
 
-## Interface Components
+<img src="../images/AdminClientEdit.png" alt="Edit Client" width="500"/>
 
-### Navigation
-- **Header**: "Edit Client" title at the top of the page
-- **Breadcrumb**: Home > Clients navigation path
-- **Tab Navigation**: Client, Secrets, Settings, APIs tabs for different configuration sections
+## Form Fields
+1. Client Identifier
+   - Purpose: Unique identifier for the client application
+   - Format: Read-only text field
+   - Value: Pre-filled with client application unique identifier
 
-### Main Form Fields
-The Client tab contains the following editable fields:
+2. Client Name
+   - Purpose: Descriptive name for the client application
+   - Format: Text field
+   - Requirements: Required
 
-1. **Client Identifier**
-   - Field containing "haulaged_ui"
-   - This appears to be a read-only or system-generated identifier
+3. ClientType
+   - Purpose: Classifies the type of client application
+   - Format: Dropdown selection
 
-2. **Client Name**
-   - Field containing "Haulaged"
-   - The display name for the client application
+4. Email
+   - Purpose: Contact email address for the client administrator
+   - Format: Text field
+   - Requirements: Required, must be properly formatted
 
-3. **ClientType**
-   - Field containing "Web"
-   - Designates the type of client application (e.g., Web, Mobile, Desktop)
+5. Redirect URIs
+   - Purpose: URLs where users will be redirected after authentication
+   - Format: Multi-value field with tag-like entries
 
-4. **Email**
-   - Field containing "shahidazim@hotmail.com"
-   - Contact email associated with the client
+6. Post Logout Redirect URIs
+   - Purpose: URLs where users will be redirected after logging out
+   - Format: Multi-value field with tag-like entries
 
-5. **Redirect URIs**
-   - Multi-value field with tag-like entries
-   - Currently contains "https://localhost:5005/signin-oidc" with ability to remove (×)
-   - Placeholder text "Type here" for adding more URIs
-   - Used for authentication/authorization redirects
-
-6. **Post Logout Redirect URIs**
-   - Multi-value field with tag-like entries
-   - Currently contains "https://localhost:5005/signout-callback-oidc" with ability to remove (×)
-   - Placeholder text "Type here" for adding more URIs
-   - Used for redirects after users log out
-
-### Action Buttons
-- **Save**: Button to commit changes to the client configuration
-- **Cancel**: Button to discard changes and return to previous screen
+7. Action Buttons
+   - Save: Submits the form and updates the client
+   - Cancel: Discards changes and returns to the Clients listing page
 
 ## Related Sections
-The interface includes three additional tabs that are not currently active:
-- **Secrets**: Likely for managing client secrets/authentication keys
-- **Settings**: Additional client configuration options
-- **APIs**: API access configuration for the client
-
-## Usage Workflow
-1. Navigate to the Edit Client interface from the Clients list
-2. Modify any of the available fields as needed
-3. Add or remove redirect URIs for authentication flows
-4. Click Save to commit changes or Cancel to discard them
-5. Access other configuration tabs as needed for complete client setup
-
-## Technical Context
-This interface appears to be part of an OAuth 2.0/OpenID Connect identity provider system, where:
-- The client represents an application that will be authenticated against the identity service
-- Redirect URIs are essential for the OAuth authorization code flow
-- Post logout redirect URIs handle user sessions after logout
+Three additional tabs that are not currently active are included:
+- Secrets: Likely for managing client secrets/authentication keys
+- Settings: Additional client configuration options
+- APIs: API access configuration for the client
