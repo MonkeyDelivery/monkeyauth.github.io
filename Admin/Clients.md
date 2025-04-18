@@ -10,7 +10,6 @@ Client applications can be viewed, created, edited, and deleted through this int
 
 <img src="../images/AdminClients.png" alt="Clients" width="600"/>
 
-## User Interface
 The clients interface consists of the following components:
 
 ### Header
