@@ -1,18 +1,11 @@
 ---
-id: admin_api_edit
-title: API - Edit
+title: Edit
+parent: APIs
+nav_order: 2
 ---
 
-# API - Edit
+# Edit
 
-#### Navigation
-- [Introduction](APIs.md)
-- [Create](APICreate.md)
-- Edit
-- [Delete](APIDelete.md)
-- [Scopes](APIScopeManage.md)
-
-## Overview
 The Edit API page allows administrators to modify existing API configurations in the system. This document explains the interface elements, editable fields, and proper usage of this feature.
 
 ## User Interface Components

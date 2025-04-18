@@ -1,11 +1,10 @@
 ---
-id: admin_home
-title: Admin Home
+title: Admin
+nav_order: 3
 ---
 
-# Admin Home
+# Admin
 
-## Overview
 The Monkey Auth dashboard is the central management interface for configuring and managing your authentication services. This dashboard provides access to clients, users, APIs, roles, settings, and external authentication providers.
 
 <img src="../images/AdminHome.png" alt="Admin Home" width="500"/>

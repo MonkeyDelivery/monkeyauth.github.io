@@ -1,17 +1,11 @@
 ---
-id: admin_client_create
-title: Client - Create
+title: Create
+parent: Clients
+nav_order: 1
 ---
 
-# Client - Create
+# Create
 
-#### Navigation
-- [Introduction](Clients.md)
-- Create
-- [Edit](ClientEdit.md)
-- [Delete](ClientDelete.md)
-
-## Overview
 The "Create Client" interface allows administrators to register a new client application in the system. This form collects essential information needed to establish a client profile and configure its authentication parameters.
 
 <img src="../images/AdminClientCreate.png" alt="Create Client" width="500"/>

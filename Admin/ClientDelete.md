@@ -1,19 +1,11 @@
 ---
-id: admin_client_delete
-title: Client - Delete
+title: Delete
+parent: Clients
+nav_order: 3
 ---
 
-# Client - Delete
+# Delete
 
-#### Navigation
-- [Introduction](Clients.md)
-- [Create](ClientCreate.md)
-- [Edit](ClientEdit.md)
-- Delete
-
-## Delete Client Feature
-
-### Overview
 The Delete Client page allows administrators to permanently remove a client from the system. This document explains the purpose, interface elements, and proper usage of this feature.
 
 ### User Interface Components

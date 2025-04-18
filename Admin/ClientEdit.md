@@ -1,17 +1,11 @@
 ---
-id: admin_client_edit
-title: Client - Edit
+title: Edit
+parent: Clients
+nav_order: 2
 ---
 
-# Client - Edit
+# Edit
 
-#### Navigation
-- [Introduction](Clients.md)
-- [Create](ClientCreate.md)
-- Edit
-- [Delete](ClientDelete.md)
-
-## Overview
 The "Client Edit" interface allows administrators to modify existing client application details. This form provides fields for updating client information, authentication redirect URIs, and associated contact details.
 
 <img src="../images/AdminClientEdit.png" alt="Edit Client" width="500"/>

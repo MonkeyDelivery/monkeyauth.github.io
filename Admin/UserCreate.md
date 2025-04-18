@@ -1,17 +1,11 @@
 ---
-id: admin_user_create
-title: User - Create
+title: Create
+parent: Users
+nav_order: 1
 ---
 
-# User - Create
+# Create
 
-#### Navigation
-- [Introduction](Users.md)
-- Create
-- [Edit](UserEdit.md)
-- [Delete](UserDelete.md)
-
-## Overview
 The Create User page provides administrators with an interface to add new users to the system. This document explains the interface elements, input requirements, and proper usage of this feature.
 
 ## User Interface Components

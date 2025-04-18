@@ -1,11 +1,11 @@
 ---
-id: admin_user-profile
 title: User Profile
+parent: Admin
+nav_order: 4
 ---
 
 # User Profile
 
-## Overview
 The User Profile page allows users to view and update their personal information including email address, phone number, and profile picture. This page is part of the user settings module and helps users manage their account details.
 
 <img src="../images/AdminUserProfile.png" alt="User profile" width="800"/>

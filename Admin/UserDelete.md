@@ -1,17 +1,11 @@
 ---
-id: admin_user_delete
-title: User - Delete
+title: Delete
+parent: Users
+nav_order: 3
 ---
 
-# User - Delete
+# Delete
 
-#### Navigation
-- [Introduction](Users.md)
-- [Create](UserCreate.md)
-- [Edit](UserEdit.md)
-- Delete
-
-## Overview
 The Delete User page allows administrators to review and confirm user account deletion. This document outlines the interface elements, system safeguards, and proper usage of this feature.
 
 ## User Interface Components
