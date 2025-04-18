@@ -1,14 +1,14 @@
 ---
-title: Edit
+title: Edit Client
 parent: Clients
 nav_order: 2
 ---
 
-# Edit
+# Edit Client
 
-The "Client Edit" interface allows administrators to modify existing client application details. This form provides fields for updating client information, authentication redirect URIs, and associated contact details.
+This interface allows administrators to modify existing client application details. This form provides fields for updating client information, authentication redirect URIs, and associated contact details.
 
-<img src="../images/AdminClientEdit.png" alt="Edit Client" width="500"/>
+<img src="../images/AdminClientEdit.png" alt="Edit Client" width="600"/>
 
 ## Form Fields
 1. Client Identifier
@@ -44,6 +44,6 @@ The "Client Edit" interface allows administrators to modify existing client appl
 
 ## Related Sections
 Three additional tabs that are not currently active are included:
-- Secrets: Likely for managing client secrets/authentication keys
-- Settings: Additional client configuration options
-- APIs: API access configuration for the client
+- [Secrets](ClientEditSecrets.html): Managing client secrets
+- [Settings](ClientEditSettings.html): Additional client configuration options
+- [APIs](ClientEditAPIs.html): API access configuration for the client

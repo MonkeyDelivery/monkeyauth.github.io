@@ -1,10 +1,10 @@
 ---
-title: Create
+title: Create API
 parent: APIs
 nav_order: 1
 ---
 
-# Create
+# Create API
 
 The Create API page allows administrators to define and register new APIs in the system. This document explains the interface elements, required fields, and proper usage of this feature.
 

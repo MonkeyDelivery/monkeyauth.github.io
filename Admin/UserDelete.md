@@ -1,10 +1,10 @@
 ---
-title: Delete
+title: Delete User
 parent: Users
 nav_order: 3
 ---
 
-# Delete
+# Delete User
 
 The Delete User page allows administrators to review and confirm user account deletion. This document outlines the interface elements, system safeguards, and proper usage of this feature.
 

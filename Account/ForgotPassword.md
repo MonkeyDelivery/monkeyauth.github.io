@@ -44,6 +44,6 @@ Administrators can reset their password by submitting their registered email add
 
 <img src="../images/AccountResetPasswordRequiredError.png" alt="Reset password details required error" width="400"/>
 
-## Best Practices
+## Notes
 - Ensure your email inbox is accessible and check your spam folder if you don't see the reset email.
 - For security, use a strong, unique password that you haven't used before.

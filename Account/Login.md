@@ -34,7 +34,7 @@ Logging into a Monkey Auth account is facilitated through standard authenticatio
 - Click "Register a new membership" to create a new MonkeyAuth account.
 - Fill out the registration form on the linked page and follow prompts to complete setup.
 
-## Best Practices
+## Notes
 - Make sure your browser allows cookies and has JavaScript enabled.
 - Use a secure and private device to log in.
 - If you're using a shared or public computer, avoid using the "Remember Me" feature.

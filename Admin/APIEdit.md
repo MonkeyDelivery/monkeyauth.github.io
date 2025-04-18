@@ -1,10 +1,10 @@
 ---
-title: Edit
+title: Edit API
 parent: APIs
 nav_order: 2
 ---
 
-# Edit
+# Edit API
 
 The Edit API page allows administrators to modify existing API configurations in the system. This document explains the interface elements, editable fields, and proper usage of this feature.
 

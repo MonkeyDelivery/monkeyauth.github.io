@@ -1,14 +1,14 @@
 ---
-title: Create
+title: Create Client
 parent: Clients
 nav_order: 1
 ---
 
-# Create
+# Create Client
 
-The "Create Client" interface allows administrators to register a new client application in the system. This form collects essential information needed to establish a client profile and configure its authentication parameters.
+This interface allows administrators to register a new client application in the system. This form collects essential information needed to establish a client profile and configure its authentication parameters.
 
-<img src="../images/AdminClientCreate.png" alt="Create Client" width="500"/>
+<img src="../images/AdminClientCreate.png" alt="Create Client" width="600"/>
 
 ## Form Fields
 1. Client Identifier

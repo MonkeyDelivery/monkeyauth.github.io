@@ -1,10 +1,10 @@
 ---
-title: Edit
+title: Edit User
 parent: Users
 nav_order: 2
 ---
 
-# Edit
+# Edit User
 
 The Edit User page allows administrators to modify existing user accounts in the system. This document outlines the interface elements, editable fields, and proper usage of this feature.
 

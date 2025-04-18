@@ -1,10 +1,10 @@
 ---
-title: Create
+title: Create User
 parent: Users
 nav_order: 1
 ---
 
-# Create
+# Create User
 
 The Create User page provides administrators with an interface to add new users to the system. This document explains the interface elements, input requirements, and proper usage of this feature.
 
