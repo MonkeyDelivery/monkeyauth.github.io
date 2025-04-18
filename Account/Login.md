@@ -1,11 +1,11 @@
 ---
-id: account_login
 title: Login
+parent: Account
+nav_order: 2
 ---
 
 # Login
 
-## Overview
 Logging into a Monkey Auth account is facilitated through standard authentication features, including error feedback, "Remember Me" functionality, and links to password recovery and new user registration.
 
 ## How to Use the Login Page

@@ -1,17 +1,11 @@
 ---
-id: admin_user_edit
-title: User - Edit
+title: Edit
+parent: Users
+nav_order: 2
 ---
 
-# User - Edit
+# Edit
 
-#### Navigation
-- [Introduction](Users.md)
-- [Create](UserCreate.md)
-- Edit
-- [Delete](UserDelete.md)
-
-## Overview
 The Edit User page allows administrators to modify existing user accounts in the system. This document outlines the interface elements, editable fields, and proper usage of this feature.
 
 ## User Interface Components

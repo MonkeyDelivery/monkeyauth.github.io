@@ -1,18 +1,11 @@
 ---
-id: admin_api_scopes
-title: API - Scopes
+title: Scopes
+parent: APIs
+nav_order: 4
 ---
 
-# API - Scopes
+# Scopes
 
-#### Navigation
-- [Introduction](APIs.md)
-- [Create](APICreate.md)
-- [Edit](APIEdit.md)
-- [Delete](APIDelete.md)
-- Scopes
-
-## Overview
 API Scopes define the permissions and access levels that can be granted to clients using an API. This document explains both the Scopes management interface and the process for creating or editing individual API Scopes.
 
 # Part 1: Scopes Management Interface

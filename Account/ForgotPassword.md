@@ -1,11 +1,11 @@
 ---
-id: account_forgot-password
 title: Forgot Password
+parent: Account
+nav_order: 3
 ---
 
 # Forgot Password
 
-## Overview
 Administrators can reset their password by submitting their registered email address. It's a secure method to regain account access if login credentials are forgotten.
 
 ## Steps to Reset Password

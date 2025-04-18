@@ -1,17 +1,11 @@
 ---
-id: admin_client_index
 title: Clients
+parent: Admin
+nav_order: 1
 ---
 
 # Clients
 
-#### Navigation
-- Introduction
-- [Create](ClientCreate.md)
-- [Edit](ClientEdit.md)
-- [Delete](ClientDelete.md)
-
-## Overview
 Client applications can be viewed, created, edited, and deleted through this interface.
 
 <img src="../images/AdminClients.png" alt="Clients" width="600"/>

@@ -1,11 +1,11 @@
 ---
-id: account_register
 title: Registration
+parent: Account
+nav_order: 1
 ---
 
 # Registration
 
-## Overview
 The Monkey Auth system provides a user registration interface for creating new memberships. This document outlines the registration process and form fields.
 
 ## Registration Form

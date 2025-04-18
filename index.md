@@ -1,11 +1,9 @@
 ---
-id: index
 title: Introduction
+nav_order: 1
 ---
 
-# Monkey Auth
-
-## Introduction
+# Introduction
 Monkey Auth is a user authentication service that provides secure identity verification and access control for applications and websites. This documentation covers all aspects of the Monkey Auth platform, including account setup, integration, and usage.
 
 #### Navigation

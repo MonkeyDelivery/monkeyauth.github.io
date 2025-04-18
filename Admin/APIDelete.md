@@ -1,13 +1,7 @@
 ---
-id: admin_api_delete
-title: API - Delete
+title: Delete
+parent: APIs
+nav_order: 3
 ---
 
-# API - Delete
-
-#### Navigation
-- [Introduction](APIs.md)
-- [Create](APICreate.md)
-- [Edit](APIEdit.md)
-- Delete
-- [Scopes](APIScopeManage.md)
+# Delete
