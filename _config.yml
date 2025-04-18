@@ -4,7 +4,6 @@ title: Monkey Auth
 description: Monkey Auth is a simple and secure authentication system for your web applications.
 theme: just-the-docs
 
-# logo: "/images/logo.png"
 favicon_ico: "/favicon.ico"
 
 search_enabled: true
