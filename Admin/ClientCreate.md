@@ -35,11 +35,13 @@ This interface allows administrators to register a new client application in the
    - Purpose: URLs where users will be redirected after authentication
    - Format: Multi-value field with tag-like entries
    - Placeholder text: "Type here"
+   - Requirements: Required
    
 6. Post Logout Redirect URIs
    - Purpose: URLs where users will be redirected after logging out
    - Format: Multi-value field with tag-like entries
    - Placeholder text: "Type here"
+   - Requirements: Required
 
 7. Action Buttons
    - Save: Submits the form and creates the client

@@ -1,7 +1,7 @@
 ---
-title: Scopes
-parent: APIs
-nav_order: 4
+title: API Scopes
+parent: Edit API
+nav_order: 1
 ---
 
 # Scopes
