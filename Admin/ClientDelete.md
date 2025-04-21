@@ -28,13 +28,6 @@ The following client details are displayed for verification before deletion:
 - Delete Button: Confirm and execute deletion
 - Cancel Button: Abort the deletion process
 
-### Usage Instructions
-
-1. Access: Navigate to the Delete Client page from the Clients page
-2. Review: Carefully verify all client information to ensure you're deleting the correct client
-3. Confirm: Click "Delete" button to permanently delete the client
-4. Abort: Click "Cancel" to exit without making changes
-
 ### Notes
 
 - Permanent Action: Client deletion cannot be undone
@@ -42,7 +35,7 @@ The following client details are displayed for verification before deletion:
 
 ### Post-Deletion Steps
 
-After successfully deleting a client, consider the following next steps:
+After successfully deleting the client, consider the following next steps:
 - Update any system documentation that references the deleted client
 - Notify relevant stakeholders of the removal
 - Reconfigure any dependent applications as needed

@@ -6,24 +6,19 @@ nav_order: 3
 
 # APIs
 
-The APIs List page provides administrators with a view of all registered APIs in the system. This document explains the interface elements, available actions, and navigation features of this page.
+APIs can be viewed, created, edited, and deleted through this interface.
 
-## User Interface Components
+<img src="../images/AdminAPIs.png" alt="APIs" width="600"/>
 
-### Header Section
-- **Page Title**: "APIs"
-- **Navigation**: "Home" and "APIs" breadcrumb links in the top-right corner
-- **Create Button**: "+ Create" button for adding new APIs
+The APIs interface consists of the following components:
 
-### Content Header
-- **Section Title**: "The list of APIs"
-
-### Table Controls
-- **Entries Display Control**: "Show [10] entries" dropdown selector
-- **Search Field**: Text input for filtering the list of APIs
+### Header
+- Page Title: "APIs" title at the top
+- Breadcrumb: Home > APIs
+- Create Button: Add a new API
 
 ### APIs Table
-The table displays the following columns:
+The table displays APIs with the following columns:
 
 | Column | Description | Sortable |
 |--------|-------------|----------|
@@ -33,51 +28,22 @@ The table displays the following columns:
 | Enabled | Indicates whether the API is active (Yes/No) | Yes |
 | Actions | Edit and Delete buttons for each API | No |
 
-### Pagination Controls
-- **Entry Counter**: "Showing 1 to 1 of 1 entries"
-- **Page Navigation**: Previous, Page Number (1), and Next buttons
+### Controls
+- Show entries: Dropdown to select number of records per page
+- Search: Filter records based on any field
+- Pagination: Navigate through multiple pages of results
 
-## Current API Entry Example
-- **Name**: Haulaged Mobile API
-- **DisplayName**: Haulaged Mobile API
-- **Description**: Haulaged Mobile API provides an access to mobile applications
-- **Enabled**: Yes
-- **Actions**: Edit (blue button) and Delete (red button)
+## Key Functionality
+1. View APIs in a tabular format
+2. Sort by clicking column headers
+3. Search to filter specific APIs
+4. Paginate through results
+5. Create a new API
+6. Edit existing API
+7. Delete existing API
 
-## Usage Instructions
-
-1. **View APIs**: The table displays all registered APIs in the system
-2. **Adjust Display**: Change the number of visible entries using the "Show entries" dropdown
-3. **Search**: Filter the list by typing in the search field to find specific APIs
-4. **Sort**: Click on column headers to sort the table by that column
-5. **Edit API**: Click the blue "Edit" button to modify an existing API
-6. **Delete API**: Click the red "Delete" button to remove an API
-7. **Create API**: Click the "+ Create" button in the header to add a new API
-8. **Navigate Pages**: Use pagination controls to move between pages of results
-
-## List Management Features
-
-- **Sorting**: Click on column headers to sort alphabetically or reverse-alphabetically
-- **Filtering**: Enter text in the search field to filter across all columns
-- **Pagination**: Navigate between pages when there are more entries than the display limit
-
-## Common Actions
-
-- **Creating a New API**: Click the "+ Create" button to start the API creation process
-- **Modifying an API**: Use the "Edit" button to update API details or configuration
-- **Disabling an API**: Edit the API to change its Enabled status without deleting it
-- **Removing an API**: Use the "Delete" button to permanently remove an API
-
-## Important Considerations
-
+## Notes
 - Deleting an API will remove access for all applications using that API
 - Disabling an API (changing Enabled to "No") temporarily prevents access without deletion
-- API Names must be unique within the system
+- API names must be unique within the system
 - Search functionality typically applies across all visible columns
-
-## Related Features
-
-- API creation form
-- API edit interface
-- API secrets and authentication configuration
-- Client associations with APIs
