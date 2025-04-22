@@ -11,15 +11,15 @@ This interface allows to create, view, edit, and delete secrets associated with 
 #### Navigation
 - [Accessing the Client Secrets](#accessing-the-client-secrets)
 - [Viewing Client Secrets](#viewing-client-secrets)
-- [Adding a New Secret](#adding-a-new-secret)
-- [Editing Existing Secrets](#editing-existing-secrets)
-- [Deleting Secrets](#deleting-secrets)
+- [Adding a New Client Secret](#adding-a-new-client-secret)
+- [Editing Existing Client Secret](#editing-existing-client-secret)
+- [Deleting Existing Client Secret](#deleting-existing-client-secret)
 - [Setting Expiration Dates](#setting-expiration-dates)
 
 ## Accessing the Client Secrets
 1. Navigate to the Clients
 2. Select the specific client from the clients list
-3. Click on the "Edit Client" option
+3. Click on the "Edit" option for the client
 4. Within the Edit Client interface, navigate to the "Secrets" tab
 
 ## Viewing Client Secrets
@@ -31,34 +31,36 @@ The Secrets tab displays a table with the following columns:
 
 <img src="../images/AdminClientEditSecrets.png" alt="Secrets" width="600"/>
 
-## Adding a New Secret
+## Adding a New Client Secret
 1. From the Secrets tab, click the "Add Secret" button in the bottom-right corner
 2. A "Client Secret" dialog will appear with the following fields:
    - Description: Enter a meaningful name or purpose for the secret
    - Expiration: Set an optional expiration date in DD/MM/YYYY format
-   - Value: Enter the secret value or leave blank to generate one automatically
+   - Value: Enter the secret value, it is a required field
 3. Click "Save" to create the new secret
+4. Otherwise click "Close" to dismiss the form
 
 <img src="../images/AdminClientEditSecretCreate.png" alt="Create Secret" width="600"/>
 
 ### Error Handling
-- An error is displayed above the Add API form if an empty form is submitted.
+- An error is displayed above the Client Secret form if an empty form is submitted.
 
 <img src="../images/AdminClientEditSecretCreateRequiredError.png" alt="Create Secret required error" width="600"/>
 
-## Editing Existing Secrets
-1. Locate the secret you wish to edit in the secrets table
+## Editing Existing Client Secret
+1. Locate the secret you wish to edit in the Client Secrets table
 2. Click the "Edit" button in the Actions column
 3. A "Client Secret" dialog will appear with the current values pre-populated:
    - Description: Update if needed
    - Expiration: Modify or set an expiration date
    - Value: The current secret value is displayed and can be modified
 4. Click "Save" to apply your changes
+5. Otherwise click "Close" to dismiss the form
 
 <img src="../images/AdminClientEditSecretEdit.png" alt="Edit Secret" width="600"/>
 
-## Deleting Secrets
-1. Locate the secret you wish to delete
+## Deleting Existing Client Secret
+1. Locate the secret you wish to delete in the Client Secrets table
 2. Click the "Delete" button in the Actions column
 3. Confirm the deletion
 
