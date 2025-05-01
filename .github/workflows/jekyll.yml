@@ -61,7 +61,7 @@ jobs:
           done | paste -sd "," -)
           
           # Wrap in payload and square brackets to form a JSON array
-          JSON_BODY="{ baseUrl: \"$BASE_URL\", documentPaths: [$JSON_ARRAY] }"
+          JSON_BODY="{ baseUrl: \"$BASE_URL\", documentPath: [$JSON_ARRAY] }"
 
           # Optional: Echo the JSON to check structure
           echo "$JSON_BODY"
