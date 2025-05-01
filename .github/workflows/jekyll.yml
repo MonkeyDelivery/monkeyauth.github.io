@@ -67,14 +67,17 @@ jobs:
       - name: Generate Markdown URL list and call API
         run: |
           BASE_URL="https://raw.githubusercontent.com/MonkeyDelivery/monkeyauth.github.io/refs/heads/main"
-          
+
+          # Go to the target directory first
+          cd ../.. || exit 1
+
           # Find all .md files and convert to a JSON array
           JSON_ARRAY=$(find . -name "*.md" | sed 's|^\./||' | while read -r file; do
             echo "\"$file\""
           done | paste -sd "," -)
           
           # Wrap in payload and square brackets to form a JSON array
-          JSON_BODY="{ baseUrl: $BASE_URL, documentPath: [$JSON_ARRAY] }"
+          JSON_BODY="{ baseUrl: \"$BASE_URL\", documentPath: [$JSON_ARRAY] }"
 
           # Optional: Echo the JSON to check structure
           echo "$JSON_BODY"
