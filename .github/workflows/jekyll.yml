@@ -56,12 +56,12 @@ jobs:
           BASE_URL="https://raw.githubusercontent.com/MonkeyDelivery/monkeyauth.github.io/refs/heads/main"
 
           # Find all .md files and convert to a JSON array
-          JSON_ARRAY=$(find . -path "./vendor" -prune -o -name "*.md" -print | sed 's|^\./||' | while read -r file; do
+          JSON_ARRAY=$(find . \( -path "./vendor" -o -path "./_site" \) -prune -o -name "*.md" -print | sed 's|^\./||' | while read -r file; do
             echo "\"$file\""
           done | paste -sd "," -)
           
           # Wrap in payload and square brackets to form a JSON array
-          JSON_BODY="{ baseUrl: \"$BASE_URL\", documentPath: [$JSON_ARRAY] }"
+          JSON_BODY="{ baseUrl: \"$BASE_URL\", documentPaths: [$JSON_ARRAY] }"
 
           # Optional: Echo the JSON to check structure
           echo "$JSON_BODY"
