@@ -63,3 +63,27 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Generate Markdown URL list and call API
+        run: |
+          BASE_URL="https://raw.githubusercontent.com/MonkeyDelivery/monkeyauth.github.io/refs/heads/main"
+          
+          # Find all .md files and convert to a JSON array
+          JSON_ARRAY=$(find . -name "*.md" | sed 's|^\./||' | while read -r file; do
+            echo "\"$file\""
+          done | paste -sd "," -)
+          
+          # Wrap in payload and square brackets to form a JSON array
+          JSON_BODY="{ baseUrl: $BASE_URL, documentPath: [$JSON_ARRAY] }"
+
+          # Optional: Echo the JSON to check structure
+          echo "$JSON_BODY"
+
+          # Send JSON array to Azure Function
+          curl -X POST "$API_URL" \
+            -H "Content-Type: application/json" \
+            -H "X-Api-Key: $API_KEY" \
+            -d "$JSON_BODY"
+        env:
+          API_URL: ${{ secrets.DEV_API_URL }}
+          API_KEY: ${{ secrets.DEV_API_KEY }}
