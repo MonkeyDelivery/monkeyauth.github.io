@@ -51,19 +51,6 @@ jobs:
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
-
-  # Deployment job
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-
       - name: Generate Markdown URL list and call API
         run: |
           BASE_URL="https://raw.githubusercontent.com/MonkeyDelivery/monkeyauth.github.io/refs/heads/main"
@@ -90,3 +77,15 @@ jobs:
         env:
           API_URL: ${{ secrets.DEV_API_URL }}
           API_KEY: ${{ secrets.DEV_API_KEY }}
+
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
