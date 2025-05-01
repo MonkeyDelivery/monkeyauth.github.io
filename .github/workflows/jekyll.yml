@@ -55,9 +55,6 @@ jobs:
         run: |
           BASE_URL="https://raw.githubusercontent.com/MonkeyDelivery/monkeyauth.github.io/refs/heads/main"
 
-          # Go to the target directory first
-          cd ../.. || exit 1
-
           # Find all .md files and convert to a JSON array
           JSON_ARRAY=$(find . -name "*.md" | sed 's|^\./||' | while read -r file; do
             echo "\"$file\""
