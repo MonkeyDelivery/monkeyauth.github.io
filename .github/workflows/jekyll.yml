@@ -52,7 +52,7 @@ jobs:
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
       - name: Generate Markdown URL list and call API
-        run: ./call-api.sh
+        run: ./scripts/call-api.sh
         env:
           API_URL: ${{ secrets.DEV_API_URL }}
           API_KEY: ${{ secrets.DEV_API_KEY }}
