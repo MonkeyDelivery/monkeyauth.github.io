@@ -14,5 +14,3 @@ curl -X POST "$API_URL" \
   -H "Content-Type: application/json" \
   -H "X-Api-Key: $API_KEY" \
   -d "$JSON_BODY"
-
-echo "API call completed."
