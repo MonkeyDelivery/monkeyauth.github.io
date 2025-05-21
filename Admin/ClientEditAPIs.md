@@ -13,7 +13,6 @@ This interface allows you to configure, view, and manage APIs associated with cl
 - [Viewing APIs](#viewing-apis)
 - [Adding an API](#adding-an-api)
 - [Removing an API](#removing-an-api)
-- Managing API Access
 
 ## Accessing Client APIs
 1. Navigate to the Client management section

@@ -6,66 +6,48 @@ nav_order: 1
 
 # Create User
 
-The Create User page provides administrators with an interface to add new users to the system. This document explains the interface elements, input requirements, and proper usage of this feature.
+This interface allows administrators to create a new user in the system. This form collects essential information needed to create a user and configure its authentication parameters.
 
-## User Interface Components
+<img src="../images/AdminUserCreate.png" alt="Create User" width="600"/>
 
-### Header Section
-- **Page Title**: "Create User"
-- **Navigation**: "Home" and "Users" breadcrumb links in the top-right corner
+## Form Fields
+1. Username
+   - User's login identifier and it must be unique in the system
+   - Format: Text field
+   - Requirements: Required
 
-### User Information Form
-The form contains the following input fields:
+2. Email
+   - User's email address and it is used for notifications and account recovery
+   - Format: Text field
+   - Requirements: Required
 
-| Field | Description | Required | Notes |
-|-------|-------------|----------|-------|
-| Username | User's login identifier | Yes | Must be unique in the system |
-| Email | User's email address | Yes | Used for notifications and account recovery |
-| Phone number | User's contact number | No | Optional contact information |
-| Is Approved | Account status checkbox | No | When checked, user can immediately access the system |
+3. Phone number
+   - User's contact number
+   - Format: Text field
+   - Requirements: Optional
 
-### Profile Picture Section
-- **Default Image**: A flower image displayed as placeholder
-- **Profile Picture Label**: Text indicating "Profile Picture"
-- **Help Text**: "The profile image can be changed here, and how to integrate in Client please review API documentation."
-- **Change Button**: Blue button to upload or modify the profile picture
+4. Is Approved
+   - Account Status: When selected, the user is granted immediate access to the system, unless the global setting "Approval Required" is enabled — in that case, access is only granted after approval.
+   - Format: Checkbox
 
-### Action Controls
-- **Save Button**: Blue button to create the new user account
-- **Cancel Button**: Gray button to abort the user creation process
+5. MCP Server
+   - Enable this to allow AI assistants—such as Claude, GitHub Copilot, and others—to interact with the system via the MCP (Model Context Protocol) Server.
+   - Format: Checkbox
 
-## Usage Instructions
+6. Access Token
+   - When the MCP Server option is enabled, a read-only text field displays an auto-generated access token for connecting to the MCP Server.
+   - Format: Text field (read-only)
 
-1. **Access**: Navigate to the Create User page from the user management section
-2. **Enter Basic Information**: Fill in the required Username and Email fields
-3. **Add Optional Details**: Enter phone number if needed
-4. **Set Account Status**: Check "Is Approved" to activate the account immediately
-5. **Upload Profile Picture**: Click "Change" to select and upload a profile image (optional)
-6. **Create Account**: Click "Save" to create the new user
-7. **Cancel**: Click "Cancel" to exit without creating a user
+5. Action Buttons
+   - Save: To create the new user account
+   - Cancel: To abort the user creation process
 
-## Field Requirements
+## Error Handling
+- An error is displayed above the Create User form if an empty form is submitted.
 
-- **Username**: Alphanumeric characters, typically without spaces
-- **Email**: Must follow standard email format (e.g., user@domain.com)
-- **Phone number**: Optional, should follow appropriate format based on regional settings
-- **Profile Picture**: Supports standard image formats (JPEG, PNG), with size limitations
+<img src="../images/AdminUserCreateRequiredError.png" alt="Create user required error" width="600"/>
 
-## Important Considerations
-
-- New users may receive automatic welcome emails depending on system configuration
-- If "Is Approved" is not checked, administrators may need to manually approve the account later
-- Profile pictures should be appropriate and professional for the organization
-
-## Post-Creation Steps
-
-After successfully creating a user, consider the following next steps:
-- Communicate login credentials securely to the new user
-- Provide new user orientation or system access instructions
-- Assign appropriate roles and permissions
-
-## Security Notes
-
-- Only users with administrative permissions should access this feature
-- Consider implementing strong password requirements
-- Review privacy policies regarding storage of user information
+## Notes
+- All required fields should be completed before saving
+- Username must be unique across the system
+- If “Is Approved” is not checked, administrators may need to manually approve the account later

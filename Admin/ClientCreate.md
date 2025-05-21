@@ -50,7 +50,7 @@ This interface allows administrators to register a new client application in the
 ## Error Handling
 - An error is displayed above the Create Client form if an empty form is submitted.
 
-<img src="../images/AdminClientCreateRequiredError.png" alt="Create client required error" width="500"/>
+<img src="../images/AdminClientCreateRequiredError.png" alt="Create client required error" width="600"/>
 
 ## Notes
 - All required fields should be completed before saving
