@@ -29,7 +29,7 @@ The Secrets tab displays a table with the following columns:
 - Value: The actual secret value (usually displayed in an encoded format)
 - Actions: Edit and Delete buttons for managing each secret
 
-<img src="../images/AdminClientEditSecrets.png" alt="Secrets" width="600"/>
+<img src="../images/AdminClientEditSecrets.png" alt="Secrets" width="800"/>
 
 ## Adding a New Client Secret
 1. From the Secrets tab, click the "Add Secret" button in the bottom-right corner
@@ -40,12 +40,12 @@ The Secrets tab displays a table with the following columns:
 3. Click "Save" to create the new secret
 4. Otherwise click "Close" to dismiss the form
 
-<img src="../images/AdminClientEditSecretCreate.png" alt="Create Secret" width="600"/>
+<img src="../images/AdminClientEditSecretCreate.png" alt="Create Secret" width="800"/>
 
 ### Error Handling
 - An error is displayed above the Client Secret form if an empty form is submitted.
 
-<img src="../images/AdminClientEditSecretCreateRequiredError.png" alt="Create Secret required error" width="600"/>
+<img src="../images/AdminClientEditSecretCreateRequiredError.png" alt="Create Secret required error" width="800"/>
 
 ## Editing Existing Client Secret
 1. Locate the secret you wish to edit in the Client Secrets table
@@ -57,14 +57,14 @@ The Secrets tab displays a table with the following columns:
 4. Click "Save" to apply your changes
 5. Otherwise click "Close" to dismiss the form
 
-<img src="../images/AdminClientEditSecretEdit.png" alt="Edit Secret" width="600"/>
+<img src="../images/AdminClientEditSecretEdit.png" alt="Edit Secret" width="800"/>
 
 ## Deleting Existing Client Secret
 1. Locate the secret you wish to delete in the Client Secrets table
 2. Click the "Delete" button in the Actions column
 3. Confirm the deletion
 
-<img src="../images/AdminClientEditSecretDelete.png" alt="Delete Secret" width="600"/>
+<img src="../images/AdminClientEditSecretDelete.png" alt="Delete Secret" width="800"/>
 
 ## Setting Expiration Dates
 1. When creating or editing a secret, use the date picker field labeled "Expiration"

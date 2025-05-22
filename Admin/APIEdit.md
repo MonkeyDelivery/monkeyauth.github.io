@@ -8,7 +8,7 @@ nav_order: 2
 
 This interface allows administrators to modify existing API configurations. This form provides fields for updating API details.
 
-<img src="../images/AdminAPIEdit.png" alt="Edit API" width="600"/>
+<img src="../images/AdminAPIEdit.png" alt="Edit API" width="800"/>
 
 ## Form Fields
 1. Name

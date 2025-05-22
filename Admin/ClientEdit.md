@@ -8,7 +8,7 @@ nav_order: 2
 
 This interface allows administrators to modify existing client application details. This form provides fields for updating client information, authentication redirect URIs, and associated contact details.
 
-<img src="../images/AdminClientEdit.png" alt="Edit Client" width="600"/>
+<img src="../images/AdminClientEdit.png" alt="Edit Client" width="800"/>
 
 ## Form Fields
 1. Client Identifier

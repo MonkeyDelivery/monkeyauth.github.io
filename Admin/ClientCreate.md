@@ -8,7 +8,7 @@ nav_order: 1
 
 This interface allows administrators to register a new client application in the system. This form collects essential information needed to establish a client profile and configure its authentication parameters.
 
-<img src="../images/AdminClientCreate.png" alt="Create Client" width="600"/>
+<img src="../images/AdminClientCreate.png" alt="Create Client" width="800"/>
 
 ## Form Fields
 1. Client Identifier
@@ -50,7 +50,7 @@ This interface allows administrators to register a new client application in the
 ## Error Handling
 - An error is displayed above the Create Client form if an empty form is submitted.
 
-<img src="../images/AdminClientCreateRequiredError.png" alt="Create client required error" width="500"/>
+<img src="../images/AdminClientCreateRequiredError.png" alt="Create client required error" width="800"/>
 
 ## Notes
 - All required fields should be completed before saving

@@ -8,7 +8,7 @@ nav_order: 3
 
 APIs can be viewed, created, edited, and deleted through this interface.
 
-<img src="../images/AdminAPIs.png" alt="APIs" width="600"/>
+<img src="../images/AdminAPIs.png" alt="APIs" width="800"/>
 
 The APIs interface consists of the following components:
 

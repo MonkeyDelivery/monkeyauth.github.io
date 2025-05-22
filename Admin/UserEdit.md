@@ -6,76 +6,46 @@ nav_order: 2
 
 # Edit User
 
-The Edit User page allows administrators to modify existing user accounts in the system. This document outlines the interface elements, editable fields, and proper usage of this feature.
+This interface allows administrators to modify existing user details. This form provides fields for updating user contact details, approval, MCP (Model Context Protocol) Server access, and associated clients and roles.
 
-## User Interface Components
+<img src="../images/AdminUserEdit.png" alt="Edit User" width="800"/>
 
-### Header Section
-- **Page Title**: "Edit User"
-- **Navigation**: "Home" and "Users" breadcrumb links in the top-right corner
+## Form Fields
+1. Username
+   - Purpose: User's login identifier
+   - Format: Read-only text field
+   - Value: Pre-filled with user's username
 
-### Tab Navigation
-- **User**: Basic user information (active tab)
-- **Clients**: User's associated client access
-- **Roles**: User's system roles and permissions
+2. Email
+   - Purpose: User's email address
+   - Format: Text field
+   - Requirements: Required
 
-### User Information Form
-The form contains the following editable fields:
+3. Phone number
+   - Purpose: User's contact number
+   - Format: Text field
 
-| Field | Description | Current Example |
-|-------|-------------|----------------|
-| Username | User's login identifier | monkeydelivery |
-| Email | User's email address | shahidazim@hotmail.com |
-| Phone number | User's contact number | (empty) |
-| Is Approved | Account status checkbox | Unchecked |
+4. Is Approved
+   - Purpose: When selected, the user is granted immediate access to the system, unless the global setting "Approval Required" is enabled — in that case, access is only granted after approval.
+   - Format: Checkbox
 
-### Profile Picture Section
-- **Current Image**: Flower image displayed as the user's profile picture
-- **Profile Picture Label**: Text indicating "Profile Picture"
-- **Help Text**: "The profile image can be changed here, and how to integrate in Client please review API documentation."
-- **Change Button**: Blue button to upload or modify the profile picture
+5. MCP Server
+   - Purpose: Enable this to allow AI assistants—such as Claude, GitHub Copilot, and others—to interact with the system via the MCP (Model Context Protocol) Server.
+   - Format: Checkbox
 
-### Action Controls
-- **Save Button**: Blue button to save changes to the user account
-- **Cancel Button**: Gray button to abort the editing process
+6. Access Token
+   - Purpose: When the MCP Server option is enabled, a read-only text field displays an auto-generated access token for connecting to the MCP Server.
+   - Format: Read-only text field
 
-## Usage Instructions
+7. Action Buttons
+   - Save: Submits the form and updates the user details
+   - Cancel: Discards changes and returns to the Users listing page
 
-1. **Access**: Navigate to the Edit User page from the user management section
-2. **Review Current Information**: Examine existing user details
-3. **Make Necessary Changes**: Modify any of the fields as needed:
-   - Update Username, Email, or Phone number
-   - Toggle "Is Approved" status
-   - Change profile picture by clicking the "Change" button
-4. **Navigate Tabs**: Use the tab navigation to edit related user settings:
-   - **Clients**: Manage which clients this user can access
-   - **Roles**: Update the user's permissions and access levels
-5. **Save Changes**: Click "Save" to apply and persist the modifications
-6. **Cancel**: Click "Cancel" to exit without saving changes
+## Notes
 
-## Field Guidelines
+- Modifying approval status and MCP Server access directly affects system access
 
-- **Username**: Consider system constraints when changing usernames
-- **Email**: Must follow standard email format (e.g., user@domain.com)
-- **Phone number**: Optional field, should follow appropriate format based on regional settings
-- **Is Approved**: Controls whether the user can access the system
-
-## Important Considerations
-
-- Changing a username may affect the user's ability to log in
-- Email changes may require verification depending on system configuration
-- Modifying approval status directly affects system access
-- Profile picture changes take effect immediately upon saving
-
-## Post-Edit Notifications
-
-The system may automatically notify users of certain changes to their account:
-- Email address changes
-- Approval status changes
-- Role or permission updates
-
-## Security Notes
-
-- Only administrators with appropriate permissions should access this feature
-- Consider documenting significant user changes for audit purposes
-- Be cautious when adjusting approval status or permissions
+## Related Sections
+Two additional tabs that are not currently active are included:
+- [Clients](UserEditClients.html): Clients access configuration for the user
+- [Roles](ClientEditRoles.html): Manage roles assigned to the user

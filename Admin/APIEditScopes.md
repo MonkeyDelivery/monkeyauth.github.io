@@ -32,7 +32,7 @@ The Scopes tab displays a table with the following columns:
 - Required: Indicates whether the scope is mandatory (Yes/No)
 - Actions: Edit and Delete buttons for managing each scope
 
-<img src="../images/AdminAPIEditScopes.png" alt="Scopes" width="600"/>
+<img src="../images/AdminAPIEditScopes.png" alt="Scopes" width="800"/>
 
 ## Adding a New API Scope
 1. From the Scopes tab, click "Add Scope" button in the bottom-right corner
@@ -46,12 +46,12 @@ The Scopes tab displays a table with the following columns:
 4. Click "Save" to create the scope
 5. Otherwise click "Close" to dismiss the form
 
-<img src="../images/AdminAPIEditScopeCreate.png" alt="Create Scope" width="600"/>
+<img src="../images/AdminAPIEditScopeCreate.png" alt="Create Scope" width="800"/>
 
 ### Error Handling
 - An error is displayed above the API Scope form if an empty form is submitted.
 
-<img src="../images/AdminAPIEditScopeCreateRequiredError.png" alt="Create Scope required error" width="600"/>
+<img src="../images/AdminAPIEditScopeCreateRequiredError.png" alt="Create Scope required error" width="800"/>
 
 ## Editing Existing API Scope
 1. Locate the scope you wish to edit in the API Scopes table
@@ -66,14 +66,14 @@ The Scopes tab displays a table with the following columns:
 4. Click "Save" to apply your changes
 5. Otherwise click "Close" to dismiss the form
 
-<img src="../images/AdminAPIEditScopeEdit.png" alt="Edit Scope" width="600"/>
+<img src="../images/AdminAPIEditScopeEdit.png" alt="Edit Scope" width="800"/>
 
 ## Deleting Existing API Scope
 1. Locate the scope you wish to delete in the API Scopes table 
 2. Click the "Delete" button in the Actions column
 3. Confirm the deletion
 
-<img src="../images/AdminAPIEditScopeDelete.png" alt="Delete Scope" width="600"/>
+<img src="../images/AdminAPIEditScopeDelete.png" alt="Delete Scope" width="800"/>
 
 ## Field Guidelines
 

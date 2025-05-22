@@ -13,7 +13,6 @@ This interface allows you to configure, view, and manage APIs associated with cl
 - [Viewing APIs](#viewing-apis)
 - [Adding an API](#adding-an-api)
 - [Removing an API](#removing-an-api)
-- Managing API Access
 
 ## Accessing Client APIs
 1. Navigate to the Client management section
@@ -28,31 +27,30 @@ The APIs tab displays a table with the following columns:
 - Description: Details about the API's purpose and functionality
 - Actions: Delete button for removing the API connection
 
-<img src="../images/AdminClientEditAPIs.png" alt="APIs" width="600"/>
+<img src="../images/AdminClientEditAPIs.png" alt="APIs" width="800"/>
 
 ## Adding an API
 1. From the APIs tab, click the "Add API" button in the bottom-right corner
 2. An "APIs" dialog will appear with a dropdown field labeled "API"
-3. Select the desired API from the dropdown list (e.g., "-- Select API --")
+3. Select the desired API from the dropdown list
 4. Click "Add" to associate the selected API with the client
 5. The new API connection will appear in the API resources table
 
-<img src="../images/AdminClientEditAPIAdd.png" alt="Add an API" width="600"/>
+<img src="../images/AdminClientEditAPIAdd.png" alt="Add an API" width="800"/>
 
 ### Error Handling
 - An error is displayed above the Add API form if an empty form is submitted.
 
-<img src="../images/AdminClientEditAPIAddRequiredError.png" alt="Add API required error" width="600"/>
+<img src="../images/AdminClientEditAPIAddRequiredError.png" alt="Add API required error" width="800"/>
 
 ## Removing an API
 1. Locate the API you wish to delete
 2. Click the "Delete" button in the Actions column (right side)
 3. Confirm the deletion
 
-<img src="../images/AdminClientEditAPIRemove.png" alt="Remove an API" width="600"/>
+<img src="../images/AdminClientEditAPIRemove.png" alt="Remove an API" width="800"/>
 
 ## Notes
 - Only add API that the client explicitly needs to function
 - Regularly review APIs to ensure they're still required
 - Consider security implications when granting access to sensitive APIs
-- Use descriptive API names that clearly indicate their purpose

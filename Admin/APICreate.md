@@ -8,7 +8,7 @@ nav_order: 1
 
 This interface allows administrators to register a new API in the system. This document explains the interface elements, required fields, and proper usage of this feature.
 
-<img src="../images/AdminAPICreate.png" alt="Create API" width="600"/>
+<img src="../images/AdminAPICreate.png" alt="Create API" width="800"/>
 
 ## Form Fields
 1. Name
@@ -40,7 +40,7 @@ This interface allows administrators to register a new API in the system. This d
 ## Error Handling
 - An error is displayed above the Create API form if an empty form is submitted.
 
-<img src="../images/AdminAPICreateRequiredError.png" alt="Create API required error" width="500"/>
+<img src="../images/AdminAPICreateRequiredError.png" alt="Create API required error" width="800"/>
 
 ## Notes
 

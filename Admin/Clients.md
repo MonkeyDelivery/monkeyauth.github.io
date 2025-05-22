@@ -8,7 +8,7 @@ nav_order: 1
 
 Client applications can be viewed, created, edited, and deleted through this interface.
 
-<img src="../images/AdminClients.png" alt="Clients" width="600"/>
+<img src="../images/AdminClients.png" alt="Clients" width="800"/>
 
 The clients interface consists of the following components:
 

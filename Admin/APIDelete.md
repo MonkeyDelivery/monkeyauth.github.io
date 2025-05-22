@@ -8,7 +8,7 @@ nav_order: 3
 
 This interface allows administrators to permanently remove a API from the system. This document explains the purpose, interface elements, and proper usage of this feature.
 
-<img src="../images/AdminAPIDelete.png" alt="Delete API" width="600"/>
+<img src="../images/AdminAPIDelete.png" alt="Delete API" width="800"/>
 
 ## Form Fields
 
@@ -25,12 +25,12 @@ The following API details are displayed for verification before deletion:
 - Delete Button: Confirm and execute deletion
 - Cancel Button: Abort the deletion process
 
-### Notes
+## Notes
 
 - Permanent Action: API deletion cannot be undone
 - Service Impact: Any applications using this API will immediately lose access
 
-### Post-Deletion Steps
+## Post-Deletion Steps
 
 After successfully deleting the API, consider the following next steps:
 - Update any system documentation that references the deleted API
