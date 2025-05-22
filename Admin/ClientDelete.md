@@ -8,7 +8,7 @@ nav_order: 3
 
 This interface allows administrators to permanently remove a client from the system. This document explains the purpose, interface elements, and proper usage of this feature.
 
-<img src="../images/AdminClientDelete.png" alt="Delete Client" width="600"/>
+<img src="../images/AdminClientDelete.png" alt="Delete Client" width="800"/>
 
 ## Form Fields
 
@@ -28,12 +28,12 @@ The following client details are displayed for verification before deletion:
 - Delete Button: Confirm and execute deletion
 - Cancel Button: Abort the deletion process
 
-### Notes
+## Notes
 
 - Permanent Action: Client deletion cannot be undone
 - Service Impact: Any applications using this client for authentication will immediately lose access
 
-### Post-Deletion Steps
+## Post-Deletion Steps
 
 After successfully deleting the client, consider the following next steps:
 - Update any system documentation that references the deleted client

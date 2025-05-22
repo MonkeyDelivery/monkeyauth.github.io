@@ -8,7 +8,7 @@ nav_order: 3
 
 This interface allows administrators to permanently remove a user from the system. This document explains the purpose, interface elements, and proper usage of this feature.
 
-<img src="../images/AdminUserDelete.png" alt="Delete User" width="600"/>
+<img src="../images/AdminUserDelete.png" alt="Delete User" width="800"/>
 
 ## Form Fields
 
@@ -28,7 +28,7 @@ The following user details are displayed for verification before deletion:
 - Delete Button: Confirm and execute deletion
 - Cancel Button: Abort the deletion process
 
-### Notes
+## Notes
 - User deletion is typically permanent and cannot be undone
 - Consider reviewing dependent resources before user deletion
 - For security reasons, the system prevents administrators from deleting their own accounts while logged in

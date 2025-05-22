@@ -8,7 +8,7 @@ nav_order: 1
 
 This interface allows administrators to create a new user in the system. This form collects essential information needed to create a user and configure its authentication parameters.
 
-<img src="../images/AdminUserCreate.png" alt="Create User" width="600"/>
+<img src="../images/AdminUserCreate.png" alt="Create User" width="800"/>
 
 ## Form Fields
 1. Username
@@ -36,7 +36,7 @@ This interface allows administrators to create a new user in the system. This fo
 
 6. Access Token
    - When the MCP Server option is enabled, a read-only text field displays an auto-generated access token for connecting to the MCP Server.
-   - Format: Text field (read-only)
+   - Format: Read-only text field
 
 5. Action Buttons
    - Save: To create the new user account
@@ -45,7 +45,7 @@ This interface allows administrators to create a new user in the system. This fo
 ## Error Handling
 - An error is displayed above the Create User form if an empty form is submitted.
 
-<img src="../images/AdminUserCreateRequiredError.png" alt="Create user required error" width="600"/>
+<img src="../images/AdminUserCreateRequiredError.png" alt="Create user required error" width="800"/>
 
 ## Notes
 - All required fields should be completed before saving

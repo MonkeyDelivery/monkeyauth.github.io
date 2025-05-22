@@ -8,7 +8,7 @@ nav_order: 2
 
 This interface allows to update authentication and access requirements.
 
-<img src="../images/AdminClientEditSettings.png" alt="Client Settings" width="600"/>
+<img src="../images/AdminClientEditSettings.png" alt="Client Settings" width="800"/>
 
 ### Approval Required
 When enabled, this setting requires an administrator to manually approve the user before they can use the system. This provides an additional layer of control over who can access the system.
