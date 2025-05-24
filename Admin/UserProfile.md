@@ -39,4 +39,4 @@ The User Profile page allows users to view and update their personal information
 ## Error Handling
 - An error is displayed above the User Profile form if an empty form is submitted.
 
-<img src="../images/AdminUserProfileRequiredError.png" alt="User profile required error" width="600"/>
+<img src="../images/AdminUserProfileRequiredError.png" alt="User profile required error" width="800"/>
